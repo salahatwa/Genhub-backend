@@ -1,0 +1,3 @@
+INSERT INTO roles VALUES (1,'ROLE_ADMIN'),(2,'ROLE_PUBLISHER'),(3,'ROLE_USER');
+INSERT INTO users (id,created_at,updated_at, email, first_name, last_name, password, username) values (1,'2021-10-16 09:12:49.093','2021-10-16 09:12:49.093','salahsayedatwa@gmail.com', 'Salah', 'Atwa', '$2a$10$8hY103wP07ZKntFmHf03EeCUIAgOvED3JuCYbu9B72ddN3V7u2r1u', 'Genhub');
+INSERT INTO user_role (user_id, role_id) values (1, 1);
